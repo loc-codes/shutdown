@@ -18,7 +18,7 @@
                     } else {
                         const fullDateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                         const fullDateString = today.toLocaleDateString('en-US', fullDateOptions).replace(/,/g, '');
-                        const title = `${formattedToday}: ${fullDateString}`;
+                        const title = fullDateString;
                         const encodedTitle = encodeURIComponent(title);
                         window.location.href = `https://github.com/loc-codes/shutdown/issues/new?template=day.yml&title=${encodedTitle}`;
                     }
