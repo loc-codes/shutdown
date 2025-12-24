@@ -1,0 +1,51 @@
+name: Shutdown Template
+description: Template for end-of-workday shutdown.
+title: "[Date] - Shutdown"
+labels: ["shutdown-routine"]
+body:
+  - type: textarea
+    attributes:
+      label: "What did you achieve today"
+      description: "Write updates on work items today.\nFor example, UMS-001: Diagnosed issue, waiting for customer approval of implementation"
+
+
+  - type: textarea
+    attributes:
+      label: "Copy all daily captures here"
+      description: "Copy any notes, emails, slack messages, or other work captures from today."
+
+  - type: textarea
+    attributes:
+      label: "What captures are going into DEPLOY tickets?"
+      description: "List items that need to become or update DEPLOY tickets."
+
+  - type: textarea
+    attributes:
+      label: "What captures are going into UMS tickets?"
+      description: "List items that need to become or update UMS tickets."
+
+  - type: checkbox
+    attributes:
+      label: "Move all time based captures into your calendar"
+      description: "Tick here once you have moved any Jira tickets to the correct status."
+      options:
+        - label: "Done"
+          value: "done"
+
+  - type: textarea
+    attributes:
+      label: "What menial/small captures are going into Gmail "Actions" folder?"
+      description: "List items you will move to your Gmail Actions folder."
+
+  - type: checkbox
+    attributes:
+      label: "Transition completed/blocked Jira items"
+      description: "Tick here once you have moved any Jira tickets to the correct status."
+      options:
+        - label: "Done"
+          value: "done"
+
+  - type: textarea
+    attributes:
+      label: "Review after-work plan"
+      description: "Check what you are doing tonight"
