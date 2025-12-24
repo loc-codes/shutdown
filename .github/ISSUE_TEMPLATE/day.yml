@@ -34,8 +34,8 @@ body:
 
   - type: textarea
     attributes:
-      label: "What menial/small captures are going into Gmail "Actions" folder?"
-      description: "List items you will move to your Gmail Actions folder."
+      label: "What menial/small captures are going into Gmail 'Actions' folder?"
+      description: "List items you will move to your Gmail 'Actions' folder."
 
   - type: checkbox
     attributes:
