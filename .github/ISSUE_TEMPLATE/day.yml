@@ -24,7 +24,7 @@ body:
       label: "What captures are going into UMS tickets?"
       description: "List items that need to become or update UMS tickets."
 
-  - type: checkbox
+  - type: checkboxes
     attributes:
       label: "Move all time based captures into your calendar"
       description: "Tick here once you have moved any Jira tickets to the correct status."
@@ -37,7 +37,7 @@ body:
       label: "What menial/small captures are going into Gmail 'Actions' folder?"
       description: "List items you will move to your Gmail 'Actions' folder."
 
-  - type: checkbox
+  - type: checkboxes
     attributes:
       label: "Transition completed/blocked Jira items"
       description: "Tick here once you have moved any Jira tickets to the correct status."
