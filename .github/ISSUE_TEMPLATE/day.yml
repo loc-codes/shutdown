@@ -30,7 +30,6 @@ body:
       description: "Tick here once you have moved any Jira tickets to the correct status."
       options:
         - label: "Done"
-          value: "done"
 
   - type: textarea
     attributes:
@@ -43,7 +42,6 @@ body:
       description: "Tick here once you have moved any Jira tickets to the correct status."
       options:
         - label: "Done"
-          value: "done"
 
   - type: textarea
     attributes:
