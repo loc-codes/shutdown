@@ -20,7 +20,7 @@
                         const fullDateString = today.toLocaleDateString('en-US', fullDateOptions).replace(/,/g, '');
                         const title = fullDateString;
                         const encodedTitle = encodeURIComponent(title);
-                        window.location.href = `https://github.com/loc-codes/shutdown/issues/new?template=day.yml&title=${encodedTitle}`;
+                        window.location.href = `https://github.com/lachlanyoung-unmand/shutdown/issues/new?template=day.yml&title=${encodedTitle}`;
                     }
                 })
                 .catch(error => console.error('Error fetching issue titles:', error));
